@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <h1>Selamat Ulang Tahun!</h1>
+            <p>Klik di mana saja untuk memulai.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1 class="main-title">Happy Birthday!</h1>
+            <p class="subtitle">Semoga hari ini penuh kebahagiaan</p>
+        </header>
+
+        <section id="photo-gallery" class="gallery">
+            <h2>Momen Spesial</h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Foto Ulang Tahun 1">
+                </div>
+                <div class="photo-item">
+                    <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Foto Ulang Tahun 2">
+                </div>
+                <div class="photo-item">
+                    <img src="https://via.placeholder.com/300x200?text=Foto+3" alt="Foto Ulang Tahun 3">
+                </div>
+                </div>
+        </section>
+
+        <section id="messages" class="messages">
+            <h2>Kata-kata Ucapan</h2>
+            <div class="message-card">
+                <p>"Selamat ulang tahun, semoga semua impianmu tercapai dan selalu diberkahi!"</p>
+                <span>- Teman Baik</span>
+            </div>
+            <div class="message-card">
+                <p>"Di hari spesialmu ini, semoga kebahagiaan selalu menyertaimu. Selamat ulang tahun!"</p>
+                <span>- Keluarga</span>
+            </div>
+            </section>
+
+        <section id="developer-feedback" class="feedback">
+            <h2>Kirim Balasan untuk Developer</h2>
+            <form id="feedback-form">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email (opsional):</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Kirim Balasan</button>
+            </form>
+            <p id="feedback-status" class="status-message"></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Website Ulang Tahun Spesial</p>
+        </footer>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html> 
